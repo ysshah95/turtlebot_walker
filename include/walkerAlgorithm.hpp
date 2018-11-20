@@ -69,7 +69,7 @@ class WalkerAlgorithm {
    /**
    * @brief Callback function for laser scanner of walker
    */
-  void laserScannerCallback(cont sensor_msgs::LaserScan::ConstPtr& input);
+  void laserScannerCallback(const sensor_msgs::LaserScan::ConstPtr& input);
    
    /**
    * @brief Method to check obstacles
